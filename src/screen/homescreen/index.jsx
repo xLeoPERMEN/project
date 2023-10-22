@@ -23,7 +23,11 @@ const Homescreen = () => {
                         return (
                             <div key={index}>
                                 <img style={{width: '15vw',height: '7.5vw', objectFit: 'cover'}} src={item.thumbnail} alt="" />
-                            <p  >{item.title}</p>
+                            <h3  >{item.title}</h3>
+                          
+                       <p>Harga : {item.price}  Rating : {item.rating}</p>
+                   
+                     
                             </div>
                         )
                     })
